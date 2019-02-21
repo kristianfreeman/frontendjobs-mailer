@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.407.0",
+    "axios": "^0.18.0",
+    "mailchimp-api-v3": "^1.12.1",
+    "mjml": "^4.4.0-beta.1",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "rss-parser": "^3.6.2"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.0.1"
+  }
+}
