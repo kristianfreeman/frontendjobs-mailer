@@ -50,7 +50,7 @@ functions:
     environment:
       FEED: ${env:DAILY_FEED_URL}
       SEND_EMAIL_URL: ${env:SEND_EMAIL_URL}
-      SCHEDULE: ${env:WEEKLY_FUNCTION}
+      SCHEDULE: ${env:WEEKLY_SCHEDULE}
       USERS: ${env:MAILCHIMP_DAILY_USERS}
     events:
       - schedule: cron(0 17 * * ? *)
